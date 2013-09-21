@@ -15,10 +15,11 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: sislam3_0_development
+  database: xlam
   pool: 5
   username: postgres
   password: 
+  port: 5434
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have

@@ -1,6 +1,11 @@
 require 'spec_helper'
 
 describe DefaultsController do
+  let(:user) { FactoryGirl.create(:user) }
+
+  before(:each) {
+      sign_in user
+  }
 
   describe "GET 'index'" do
     it "returns http success" do

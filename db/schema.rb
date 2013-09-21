@@ -11,7 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130816021746) do
+ActiveRecord::Schema.define(:version => 20130921200521) do
+
+  create_table "tenants", :force => true do |t|
+    t.string   "subdomain"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false

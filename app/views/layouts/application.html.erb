@@ -23,6 +23,15 @@
 </head>
 <body data-controller="<%= controller.controller_name %>" data-action="<%= controller.action_name %>">
   <section>
+      <% if user_signed_in? %>
+        <li>
+        <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+        </li>
+      <% else %>
+        <li>
+        <%= link_to('Login', new_user_session_path)  %>
+        </li>
+      <% end %>
     <%#= render 'layouts/header' %>
     <%#= render 'layouts/messages' %>
     <div class="row">
