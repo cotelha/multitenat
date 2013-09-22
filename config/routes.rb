@@ -1,4 +1,6 @@
 Sislam30::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
+
   devise_for :users
 
   get "defaults/index"

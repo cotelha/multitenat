@@ -23,6 +23,7 @@
 //= require jquery.dateFormat
 //= require spin.min.js
 //= require jquery-tmpl
+//= require ckeditor/init
 //= require_tree .
 
 function debug(msg) {

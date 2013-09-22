@@ -51,6 +51,9 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     builder (3.0.4)
+    ckeditor (4.0.4)
+      mime-types
+      orm_adapter
     clean_logger (0.0.5)
       rails
     climate_control (0.0.3)
@@ -253,6 +256,7 @@ DEPENDENCIES
   awesome_print (~> 1.1)
   brcpfcnpj (= 3.3.0)
   brhelper (= 3.3.0)
+  ckeditor
   clean_logger (~> 0.0)
   coffee-rails (~> 3.2.1)
   devise

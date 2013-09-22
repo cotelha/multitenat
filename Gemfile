@@ -29,7 +29,7 @@ gem 'will_paginate', '~> 3.0.0'
 gem 'sinatra', '>= 1.3.0', :require => nil
 # to validate emails
 gem 'email_validator'
-# To use Font Awesome
+# To use Font Awesomegem "ckeditor"
 gem "font-awesome-rails", "~> 3.2.0.0"
 # To use attachments
 gem "paperclip", "3.1.4"
@@ -62,7 +62,7 @@ gem 'devise'
 # gem "google_visualr"
 # gem "acts_as_audited"
 # gem 'cancan'
-# gem 'ckeditor'
+gem 'ckeditor'
 # gem 'fastercsv'
 # gem 'prawn'
 # gem 'whenever'
