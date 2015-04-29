@@ -1,7 +1,8 @@
 class ApplicationController < ActionController::Base
+  protect_from_forgery
+
   around_filter :scope_current_tenant
   before_filter :authenticate_user!
-  protect_from_forgery
 
   private
 

@@ -1,5 +1,6 @@
 class DeviseCreateUsers < ActiveRecord::Migration
   def change
+=begin
     create_table(:users) do |t|
       ## Database authenticatable
       t.string :email,              :null => false, :default => ""
@@ -43,4 +44,6 @@ class DeviseCreateUsers < ActiveRecord::Migration
     # add_index :users, :unlock_token,         :unique => true
     # add_index :users, :authentication_token, :unique => true
   end
+=end
+end
 end
